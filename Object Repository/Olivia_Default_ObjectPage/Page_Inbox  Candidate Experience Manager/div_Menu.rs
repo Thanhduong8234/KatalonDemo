@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Menu</name>
+   <tag></tag>
+   <elementGuidId>5807da4a-a915-4248-a1ef-18412599efb8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//nav[@id='app-toolbar']/section/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.back-btn._3y40F1bn</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>aa8caa3e-c01e-47d6-8ca5-31efd6d450fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>toolbar_btn_back</value>
+      <webElementGuid>36b743c7-465a-4874-a47f-6adecca85fe2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>back-btn _3y40F1bn</value>
+      <webElementGuid>099bdf63-fb4d-40c6-9393-bedba2cce137</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>  Menu</value>
+      <webElementGuid>c828f3e3-859e-4588-8943-53b336f60495</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app-toolbar&quot;)/section[@class=&quot;el-container container-fluid _2tDLkbm6&quot;]/div[@class=&quot;_3nY7Je2-&quot;]/div[@class=&quot;back-btn _3y40F1bn&quot;]</value>
+      <webElementGuid>45b379a3-47bc-40fc-aa91-9f36dbece1aa</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//nav[@id='app-toolbar']/section/div/div</value>
+      <webElementGuid>fb66147f-110a-46cb-8a64-9c1162e04a9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TA'])[2]/following::div[2]</value>
+      <webElementGuid>d13d12b3-d17f-44c6-aed3-45057c08c2b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View as'])[1]/following::div[13]</value>
+      <webElementGuid>9cc11296-3838-4d15-bae2-72a49a0719f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inbox'])[1]/preceding::div[2]</value>
+      <webElementGuid>5f761272-b57e-46b3-9875-0c4e76115c36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//nav/section/div/div</value>
+      <webElementGuid>0400c36a-89a1-4953-ae91-b598b91e6da7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '  Menu' or . = '  Menu')]</value>
+      <webElementGuid>1a625f28-323c-49a3-afa7-bac279a84a84</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

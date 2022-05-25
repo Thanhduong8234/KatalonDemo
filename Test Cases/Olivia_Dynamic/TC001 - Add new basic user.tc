@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001 - Add new basic user</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b59436fb-0897-48fd-83e0-c4604b258131</testCaseGuid>
+</TestCaseEntity>

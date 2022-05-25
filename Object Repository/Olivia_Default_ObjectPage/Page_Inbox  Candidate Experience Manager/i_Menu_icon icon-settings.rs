@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Menu_icon icon-settings</name>
+   <tag></tag>
+   <elementGuidId>391d69ca-73fb-40c0-a7ab-7ce0cea48640</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/div/div[2]/button/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon.icon-settings</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>c61e8957-f4aa-474d-a9b3-a03d0e3832a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon icon-settings</value>
+      <webElementGuid>b5b2a256-a032-4b25-9b16-8003b7e526f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;ol-cem bg-light has-fixed-header has-toolbar el-popup-parent--hidden&quot;]/div[@class=&quot;el-drawer__wrapper menu-sidebar u44qmaHw&quot;]/div[@class=&quot;el-drawer__container el-drawer__open&quot;]/div[@class=&quot;el-drawer ltr&quot;]/section[@class=&quot;el-drawer__body&quot;]/div[@class=&quot;Q_dqAhkD&quot;]/div[1]/div[@class=&quot;_28gig7Z9&quot;]/div[@class=&quot;menu-header yPgzUR6W&quot;]/div[@class=&quot;B7wiflXC&quot;]/button[@class=&quot;el-button el-button--default is-circle&quot;]/i[@class=&quot;icon icon-settings&quot;]</value>
+      <webElementGuid>2a6f1782-9e66-46c3-9ad9-c08adcc5a823</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[2]/button/i</value>
+      <webElementGuid>18a302b0-52a8-413f-b1e8-0f9db23c5488</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

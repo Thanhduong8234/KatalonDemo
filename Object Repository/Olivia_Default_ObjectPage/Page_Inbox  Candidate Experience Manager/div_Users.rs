@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Users</name>
+   <tag></tag>
+   <elementGuidId>ead2fc8f-1213-4cd0-a179-d1e4c6a4b151</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Location Management'])[1]/following::div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0f912b93-0ce5-465e-9646-8f5f3bfe1f28</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_15dZyPcR</value>
+      <webElementGuid>3caf18ae-74fa-403a-8676-4fe25bf54bb7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Users</value>
+      <webElementGuid>61f5fd84-402b-46b5-8dec-164bf3c22ea8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;ol-cem bg-light has-fixed-header has-toolbar&quot;]/div[@class=&quot;el-drawer__wrapper menu-sidebar u44qmaHw&quot;]/div[@class=&quot;el-drawer__container el-drawer__open&quot;]/div[@class=&quot;el-drawer ltr&quot;]/section[@class=&quot;el-drawer__body&quot;]/div[@class=&quot;Q_dqAhkD&quot;]/div[1]/div[@class=&quot;_28gig7Z9&quot;]/div[@class=&quot;el-scrollbar&quot;]/div[@class=&quot;el-scrollbar__wrap&quot;]/div[@class=&quot;el-scrollbar__view&quot;]/section[@class=&quot;menu-section _3EImZkrl _16Ikn8m2&quot;]/div[@class=&quot;menu-content&quot;]/a[@class=&quot;menu-item _2EIQpZys&quot;]/div[@class=&quot;item-content&quot;]/div[@class=&quot;_15dZyPcR&quot;]</value>
+      <webElementGuid>2c868db0-b2fe-4760-964a-591bcf1c3aed</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Location Management'])[1]/following::div[2]</value>
+      <webElementGuid>3299cd2d-9ca9-45bb-bbaf-2a4ebf336918</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Company'])[1]/following::div[5]</value>
+      <webElementGuid>2d9c34ae-f4ad-4d56-9cfc-d06c2f5ab5f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Preferences'])[1]/preceding::div[1]</value>
+      <webElementGuid>ec4db8aa-a132-48a9-944f-5b500d3b3fdd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alert Management'])[1]/preceding::div[2]</value>
+      <webElementGuid>d2254fff-6e84-4101-9ccf-ba2ef3f58dd2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Users']/parent::*</value>
+      <webElementGuid>c4336ebd-6d1a-4e12-8716-b3565b5718fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[2]/div/div</value>
+      <webElementGuid>c1b81bd2-1aca-4ccc-b440-c66a13f4709e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Users' or . = 'Users')]</value>
+      <webElementGuid>d0ffc417-b48f-46c3-919d-cc796180a215</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Paradox_el-dialog__close el-icon el-icon-close</name>
+   <tag></tag>
+   <elementGuidId>516c3dea-82a8-4c4f-bee0-78f8833431ce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.el-dialog__close.el-icon.el-icon-close</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>e08e4c07-9b9a-4cbc-946d-dceaa8edb45e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>el-dialog__close el-icon el-icon-close</value>
+      <webElementGuid>bd9d8516-343d-45c8-9f71-a9907a922f8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;ol-cem bg-light has-fixed-header el-popup-parent--hidden&quot;]/div[@class=&quot;el-dialog__wrapper Do2lq6EN&quot;]/div[@class=&quot;el-dialog&quot;]/div[@class=&quot;el-dialog__header&quot;]/button[@class=&quot;el-dialog__headerbtn&quot;]/i[@class=&quot;el-dialog__close el-icon el-icon-close&quot;]</value>
+      <webElementGuid>c1e1634d-b2ee-458c-a1df-5c4400f0aa1f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//i</value>
+      <webElementGuid>dc0d4eaf-b907-4097-909d-73f2ad033eff</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

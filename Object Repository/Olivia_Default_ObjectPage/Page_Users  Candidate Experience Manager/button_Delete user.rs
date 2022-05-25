@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Delete user</name>
+   <tag></tag>
+   <elementGuidId>4e6bd289-a8b8-4dac-a4f8-30517f91cfa3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='btnRemove']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#btnRemove</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7234b0d2-3988-4e67-8ca0-212f958dd1a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-red btn-remove</value>
+      <webElementGuid>3dc6c05c-0d39-4162-94f6-12771d3d2472</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>2a5f6bda-39ca-42fe-bd4c-a8a332a858e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-href</name>
+      <type>Main</type>
+      <value>/settings/users/946695/delete</value>
+      <webElementGuid>55841bea-2032-4f3a-b9d5-403313865db0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>btnRemove</value>
+      <webElementGuid>9434707a-7fc1-49cb-976b-2d764be19a83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-contact-id</name>
+      <type>Main</type>
+      <value>946695</value>
+      <webElementGuid>c6e3a35c-1f7a-4910-b459-747a49baddc7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                             Delete user
+                         </value>
+      <webElementGuid>c4ae45c7-abcc-4735-bb5a-4c3d4c1b7250</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;btnRemove&quot;)</value>
+      <webElementGuid>1c32f9f3-ffc0-403e-9d5d-ee0ea19f137d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='btnRemove']</value>
+      <webElementGuid>8b3b5c65-c1ad-467b-bc14-dd092df0788b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='edit-contact']/div[10]/div/div/button</value>
+      <webElementGuid>87c8f5ac-54a9-4ba6-8ac7-4dc26a58ea52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Text Resizing'])[1]/following::button[1]</value>
+      <webElementGuid>98689137-36fa-44ff-be7c-ca723025dec0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Color Contrast'])[2]/following::button[1]</value>
+      <webElementGuid>c17fbae2-ad73-47ff-be0a-032cd61648ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[7]/preceding::button[1]</value>
+      <webElementGuid>f486798b-6a79-4d4c-be5f-528b346ec74e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[6]/preceding::button[1]</value>
+      <webElementGuid>c6b36427-3d59-4363-8abb-97fb8b80c7bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Delete user']/parent::*</value>
+      <webElementGuid>0de3c8ff-3d2f-40be-ab9e-df606c052dad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[10]/div/div/button</value>
+      <webElementGuid>8948a678-f402-49a8-97b6-f1d8851a8adf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and @id = 'btnRemove' and (text() = '
+                             Delete user
+                         ' or . = '
+                             Delete user
+                         ')]</value>
+      <webElementGuid>1ae2d4f1-d306-48ad-a443-0b6f7db3284b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
