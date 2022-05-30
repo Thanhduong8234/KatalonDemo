@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile("/tmp/Katalon/Test Cases/Olivia_Dynamic/Users Feed/TC001 - Add new user with any role/20220530_140501/execution.properties")
+RunConfiguration.setExecutionSettingFile("/tmp/Katalon/Test Cases/Olivia_Dynamic/Users Feed/TC001 - Add new user with any role/20220530_162015/execution.properties")
 
 TestCaseMain.beforeStart()
 
-       TestCaseMain.startTestCaseBinding('Test Cases/Olivia_Dynamic/Users Feed/TC001 - Add new user with any role', new File("/tmp/Katalon/Test Cases/Olivia_Dynamic/Users Feed/TC001 - Add new user with any role/20220530_140502/testCaseBinding"))
+       TestCaseMain.startTestCaseBinding('Test Cases/Olivia_Dynamic/Users Feed/TC001 - Add new user with any role', new File("/tmp/Katalon/Test Cases/Olivia_Dynamic/Users Feed/TC001 - Add new user with any role/20220530_162016/testCaseBinding"))
     
