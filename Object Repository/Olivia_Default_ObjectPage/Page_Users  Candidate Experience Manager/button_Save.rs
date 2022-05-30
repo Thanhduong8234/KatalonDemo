@@ -22,6 +22,46 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>395699e6-f7d2-4611-804a-ce1912e8a356</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary btn-save pull-right</value>
+      <webElementGuid>02a6d9b5-e7ff-48da-b30f-41a4dd474053</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>05c5f643-3e97-4c0c-bb4f-4fce863a61ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Save</value>
+      <webElementGuid>4d7c8a61-c5b4-463b-a4ee-1b87050d1878</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;edit-contact&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;group-btn clearfix&quot;]/div[@class=&quot;col-md-3 pull-right iframe-save-button&quot;]/button[@class=&quot;btn btn-primary btn-save pull-right&quot;]</value>
+      <webElementGuid>d86ce388-d2f1-4394-ba99-3290357bfad9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
       <webElementGuid>e706c13d-f7ad-4827-aad8-886620cd9174</webElementGuid>
    </webElementProperties>
    <webElementProperties>
@@ -33,7 +73,7 @@
       <webElementGuid>7730e02c-394e-4c06-ba63-c60afb7cf0c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -41,7 +81,7 @@
       <webElementGuid>62fe95fd-0d70-4f65-966a-705f705071fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -62,7 +102,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='submit'])[2]</value>
-      <webElementGuid>6b32a511-6188-40f2-ac81-d63e2fc62205</webElementGuid>
+      <webElementGuid>884739ed-b2b2-430e-9711-271cb4383724</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +110,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='edit-contact']/div[8]/div/div[2]/button</value>
-      <webElementGuid>f23b7d6b-2735-4868-83a6-88ed43d9ab7f</webElementGuid>
+      <webElementGuid>6bddfedb-6205-4717-8a3e-355708216498</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[7]/following::button[1]</value>
-      <webElementGuid>1983e856-aa40-4fec-8ff6-4f30f4ad3203</webElementGuid>
+      <webElementGuid>a7c14b7e-ab75-47d7-9681-00df85f19a52</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Text Resizing'])[1]/following::button[1]</value>
-      <webElementGuid>409f7bf7-d363-4f05-8010-289e7e2e6052</webElementGuid>
+      <webElementGuid>55f48d38-d748-4847-8c9a-e08ef6ed9edb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +134,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Click and drag to create your weekly interview availability.'])[1]/preceding::button[1]</value>
-      <webElementGuid>81df52f1-76dc-41e3-aed1-0f0afb4bfd9f</webElementGuid>
+      <webElementGuid>bb9aa1ea-d2ff-4ab0-abb5-4569e004447f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +142,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear All'])[1]/preceding::button[1]</value>
-      <webElementGuid>4c2c086d-32e5-4930-8772-a1fdc092b697</webElementGuid>
+      <webElementGuid>7a53f37c-9edf-4759-a6f3-101af8f607af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +150,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[8]/div/div[2]/button</value>
-      <webElementGuid>7a0f7ce9-8dca-473a-a226-7da0cb72b892</webElementGuid>
+      <webElementGuid>2d769508-3125-4bbc-9de0-24b5abc5f5d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +158,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and (text() = 'Save' or . = 'Save')]</value>
-      <webElementGuid>6a3c4f35-a50b-4427-8d88-7dd9439e1173</webElementGuid>
+      <webElementGuid>f923a7dc-984e-49d7-b4ea-b5f359133d93</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

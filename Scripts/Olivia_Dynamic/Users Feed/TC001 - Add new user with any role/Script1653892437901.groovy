@@ -1,8 +1,3 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -16,6 +11,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.openBrowser('')
 
@@ -43,39 +43,43 @@ WebUI.click(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Inb
 
 WebUI.click(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/i_Users_icon-plus'))
 
-WebUI.click(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/strong_Basic User'))
+WebUI.click(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/strong_Full User'))
 
 WebUI.click(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/button_Continue'))
 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/select_Company Admin  Full User - Edit Ever_daeaff'), 
+    role, true)
+
+if (true) {
+    WebUI.setText(findTestObject('Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/input_Job title_job_title'), 
+        job_title)
+}
+
 WebUI.setText(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/input_First name_fname'), 
-    fname)
+    firstname)
 
 WebUI.setText(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/input_Last name_lname'), 
-    lname)
-
-WebUI.concatenate((([]) as String))
+    lastname)
 
 WebUI.setText(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/input_Email_email'), 
-    'thanh.duong+AutoB@paradox.ai')
+    email)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/select_Select a country  United States  Can_7bdac2'), 
-    'US', true)
+    country, true)
 
 WebUI.click(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/button_Save'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/strong_Selected card'), 
-    'Basic Automation')
+    fullname)
 
-WebUI.click(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/div_BA                                     _ce1a85'))
+WebUI.verifyOptionSelectedByValue(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/select_Company Admin  Full User - Edit Ever_daeaff'), 
+    role, false, 0)
 
-WebUI.verifyOptionSelectedByValue(findTestObject('Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/select_Company Admin  Full User - Edit Ever_daeaff'), 
-    '99', false, 0)
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/input_First name_fname'), 
+    'value', firstname, 0)
 
-WebUI.verifyElementAttributeValue(findTestObject('Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/input_First name_fname'), 
-    'value', 'Basic', 0)
-
-WebUI.verifyElementAttributeValue(findTestObject('Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/input_Last name_lname'), 
-    'value', 'Automation', 0)
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/input_Last name_lname'), 
+    'value', lastname, 0)
 
 WebUI.click(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/button_Delete user'))
 

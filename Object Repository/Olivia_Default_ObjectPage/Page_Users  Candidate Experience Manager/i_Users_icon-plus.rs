@@ -22,6 +22,30 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
+      <webElementGuid>42e9972b-0b14-4aed-b87c-053981dfb2d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon-plus</value>
+      <webElementGuid>a40a52be-1d95-4737-b3b1-30f06d557ef7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;_toolbar_icons&quot;)/ul[@class=&quot;vertical-toolbar flex-center&quot;]/li[@class=&quot;li-&quot;]/span[@class=&quot;menu cursor-pt v-center&quot;]/i[@class=&quot;icon-plus&quot;]</value>
+      <webElementGuid>50ba2ff2-fb8d-4c35-af3a-7fdac66f6059</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
       <webElementGuid>324e92a7-5383-40b6-8951-571076fc3b63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
@@ -33,7 +57,7 @@
       <webElementGuid>0a4a885d-9c82-4216-914a-da9f03836460</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
@@ -46,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='_toolbar_icons']/ul/li/span/i</value>
-      <webElementGuid>721d7a53-d5c0-4030-a97d-566ed2d1f257</webElementGuid>
+      <webElementGuid>941e741b-391c-42ec-bf06-0d09abe5c9b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +78,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//i</value>
-      <webElementGuid>2e20cda6-c08b-4785-b925-74102eaa83e1</webElementGuid>
+      <webElementGuid>1e1743b8-7364-4a14-8c04-d4b712b5a0bc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
