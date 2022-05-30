@@ -17,23 +17,7 @@ import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.openBrowser('')
-
-WebUI.maximizeWindow()
-
-WebUI.navigateToUrl('https://olivia.paradox.ai/login')
-
-WebUI.click(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Olivia By Paradox - CEM/i_Paradox_el-dialog__close el-icon el-icon-close'))
-
-WebUI.setText(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Login/input_Phone number, email, or Employee ID_l_2fc3e1'), 
-    'thanh.duong+automation@paradox.ai')
-
-WebUI.click(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Login/button_Next'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Login/input_Enter Password_el-input__inner'), 
-    '4nvbrPglk7k=')
-
-WebUI.click(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Login/button_Sign in'))
+WebUI.callTestCase(findTestCase('Olivia_Default/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Inbox  Candidate Experience Manager/div_Menu'))
 
@@ -51,7 +35,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Olivia_Default_Objec
     role, true)
 
 if (WebUI.waitForElementVisible(findTestObject('Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/input_Job title_job_title'), 
-    10)) {
+    3)) {
     WebUI.setText(findTestObject('Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/input_Job title_job_title'), 
         job_title)
 }
@@ -82,9 +66,7 @@ WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Olivia_Defau
 WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/input_Last name_lname'), 
     'value', lastname, 0)
 
-WebUI.click(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/button_Delete user'))
-
-WebUI.click(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/button_Yes'))
+WebUI.callTestCase(findTestCase('Olivia_Default/Delete User'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 
