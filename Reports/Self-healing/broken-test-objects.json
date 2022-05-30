@@ -19,6 +19,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/strong_Basic Automation_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/strong_Selected card",
+      "brokenLocator": "//div[contains(@class,\u0027selected\u0027)]//strong",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027BA\u0027])[1]/following::strong[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/strong_Selected card_neighbor.png"
     }
   ]
 }

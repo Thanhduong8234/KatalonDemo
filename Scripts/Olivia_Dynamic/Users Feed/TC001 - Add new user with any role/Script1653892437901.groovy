@@ -50,7 +50,8 @@ WebUI.click(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Use
 WebUI.selectOptionByValue(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/select_Company Admin  Full User - Edit Ever_daeaff'), 
     role, true)
 
-if (true) {
+if (WebUI.waitForElementVisible(findTestObject('Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/input_Job title_job_title'), 
+    10)) {
     WebUI.setText(findTestObject('Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/input_Job title_job_title'), 
         job_title)
 }
@@ -73,7 +74,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Olivia_Default_ObjectP
     fullname)
 
 WebUI.verifyOptionSelectedByValue(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/select_Company Admin  Full User - Edit Ever_daeaff'), 
-    role, false, 0)
+    role, true, 10)
 
 WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/input_First name_fname'), 
     'value', firstname, 0)
