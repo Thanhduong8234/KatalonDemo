@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Menu_icon icon-settings</name>
+   <tag></tag>
+   <elementGuidId>577ae63b-4d7b-4a8a-9665-ba4043708e0a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon.icon-settings</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section/div/div/div/div/div[2]/button/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>6ef77222-0ed0-4410-8932-748a2016d6ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon icon-settings</value>
+      <webElementGuid>fb971d68-237f-4e39-bfee-6e4ecdf7dfd2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;ol-cem bg-light has-fixed-header has-toolbar el-popup-parent--hidden&quot;]/div[@class=&quot;el-drawer__wrapper menu-sidebar u44qmaHw&quot;]/div[@class=&quot;el-drawer__container el-drawer__open&quot;]/div[@class=&quot;el-drawer ltr&quot;]/section[@class=&quot;el-drawer__body&quot;]/div[@class=&quot;Q_dqAhkD&quot;]/div[1]/div[@class=&quot;_28gig7Z9&quot;]/div[@class=&quot;menu-header yPgzUR6W&quot;]/div[@class=&quot;B7wiflXC&quot;]/button[@class=&quot;el-button el-button--default is-circle&quot;]/i[@class=&quot;icon icon-settings&quot;]</value>
+      <webElementGuid>93d541e3-8b4a-4166-8605-1872455d67fe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div/div/div/div/div[2]/button/i</value>
+      <webElementGuid>f5787294-797f-444e-9340-56c289f7e531</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

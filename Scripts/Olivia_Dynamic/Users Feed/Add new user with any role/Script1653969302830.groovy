@@ -17,7 +17,7 @@ import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.callTestCase(findTestCase('Olivia_Default/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Olivia_Dynamic/General/Login as CA'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Inbox  Candidate Experience Manager/div_Menu'))
 
@@ -66,7 +66,7 @@ WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Olivia_Defau
 WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/input_Last name_lname'), 
     'value', lastname, 0)
 
-WebUI.callTestCase(findTestCase('Olivia_Default/Delete User'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Olivia_Dynamic/Users Feed/Delete User'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

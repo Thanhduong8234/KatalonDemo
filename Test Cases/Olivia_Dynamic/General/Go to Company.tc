@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Go to Company</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>275e0860-cd65-4ec4-8585-f9fb6cccc0cc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b6a89e94-9863-4548-b996-19637a8e3cd3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Paradox VN - ThanhDuong: Job'</defaultValue>
+      <description></description>
+      <id>b6a89e94-9863-4548-b996-19637a8e3cd3</id>
+      <masked>false</masked>
+      <name>companyName</name>
+   </variable>
+</TestCaseEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[contains(@class,'selected')]//strong</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='BA'])[1]/following::strong[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
