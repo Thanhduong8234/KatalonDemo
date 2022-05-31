@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/button_Delete user'))
 
-WebUI.click(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/button_Yes'))
+WebUI.click(findTestObject('Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/button_Yes'))
 

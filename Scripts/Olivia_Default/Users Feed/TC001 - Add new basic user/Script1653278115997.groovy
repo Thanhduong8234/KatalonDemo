@@ -63,7 +63,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Olivia_Default_Objec
 
 WebUI.click(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/button_Save'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/strong_Selected card'), 
+WebUI.verifyElementText(findTestObject('Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/strong_Selected_Card'), 
     'Basic Automation')
 
 WebUI.click(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/div_BA                                     _ce1a85'))
@@ -79,7 +79,7 @@ WebUI.verifyElementAttributeValue(findTestObject('Olivia_Default_ObjectPage/Page
 
 WebUI.click(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/button_Delete user'))
 
-WebUI.click(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/button_Yes'))
+WebUI.click(findTestObject('Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/button_Yes'))
 
 WebUI.closeBrowser()
 

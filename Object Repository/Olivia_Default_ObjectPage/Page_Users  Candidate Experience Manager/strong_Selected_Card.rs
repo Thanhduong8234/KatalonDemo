@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Yes</name>
+   <name>strong_Selected_Card</name>
    <tag></tag>
-   <elementGuidId>0b7a621f-23db-4e94-9792-d8e867c9d174</elementGuidId>
+   <elementGuidId>b90ec9d4-0d3b-4495-827b-c0d7b9c55b4e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type = 'button' and (text() = 'Yes' or . = 'Yes')]</value>
+         <value>//div[contains(@class,'selected')]//strong</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

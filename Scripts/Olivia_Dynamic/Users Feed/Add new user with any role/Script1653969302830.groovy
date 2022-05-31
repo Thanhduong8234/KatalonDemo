@@ -54,7 +54,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Olivia_Default_Objec
 
 WebUI.click(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/button_Save'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/strong_Selected card'), 
+WebUI.verifyElementText(findTestObject('Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/strong_Selected_Card'), 
     fullname)
 
 WebUI.verifyOptionSelectedByValue(findTestObject('Object Repository/Olivia_Default_ObjectPage/Page_Users  Candidate Experience Manager/select_Company Admin  Full User - Edit Ever_daeaff'), 
